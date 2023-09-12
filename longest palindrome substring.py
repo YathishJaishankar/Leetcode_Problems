@@ -1,7 +1,7 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         
-        if len(s) == 1
+        if len(s) == 1:
             return s
         N = len(s)
         memo = {}
